@@ -1,0 +1,44 @@
+/* Disabled Button */
+#main .MuiButtonBase-root.Mui-disabled {
+  color: rgb(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.18);
+}
+
+/* Disabled Switch */
+#main .MuiFormControlLabel-root.Mui-disabled,
+#main .MuiFormControlLabel-label.Mui-disabled {
+  color: rgb(255 255 255 / 80%);
+}
+
+/* Eingabefelde */
+#main .MuiFilledInput-root {
+  background-color: rgb(255 255 255);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#main .MuiFilledInput-root:focus,
+main .MuiFilledInput-root:hover,
+main .MuiFilledInput-root:active {
+  background-color: rgb(226, 226, 226);
+}
+
+/* Button */
+#main .MuiButton-contained {
+  border-radius: 100px;
+  min-width: 120px;
+  text-transform: none;
+  color: #000;
+  font-weight: 600;
+  min-height: 48px;
+}
+
+
+/* + Button */
+#main .noneShadow{
+  box-shadow: none;
+}
+
+#main .bigIcon > * {
+  font-size: 2.5rem;
+}

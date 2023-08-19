@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.903d63e6.css",
+    "main.js": "/static/js/main.19cb8cbb.js",
+    "static/media/sharing.svg": "/static/media/sharing.f0557686b9429b03fcc90ce73721b642.svg",
+    "static/media/barrierefreiheit.svg": "/static/media/barrierefreiheit.e47725a96c8b7116d15638e457923f8f.svg",
+    "static/media/breiterParkplatz.svg": "/static/media/breiterParkplatz.fa807cd46f4606d6325b9ecf00e9d913.svg",
+    "static/media/parkplatzB.svg": "/static/media/parkplatzB.3ae0d9a55a93d798b50a48fa2d888f43.svg",
+    "static/media/anbieten.svg": "/static/media/anbieten.a57cbf43cf400a33a759.svg",
+    "static/media/parkplatzL.svg": "/static/media/parkplatzL.d68543fa1f09a973842e64acb3af252b.svg",
+    "static/media/parkplatzH.svg": "/static/media/parkplatzH.7a10a8a96e1ceb4a25ff0faec7f91653.svg",
+    "static/media/autoB.svg": "/static/media/autoB.0fc32931495fc4080b7b60b91fd5a3f4.svg",
+    "static/media/buchen.svg": "/static/media/buchen.039c8e89ef45cb3bcaa5.svg",
+    "static/media/autoH.svg": "/static/media/autoH.3156f6e795c871d454a180c451939941.svg",
+    "static/media/autoL.svg": "/static/media/autoL.0f6dc0e699819956635fbcd5e7909e53.svg",
+    "static/media/suche.svg": "/static/media/suche.ac96b9fc0b4089a20771.svg",
+    "static/media/fahrzeugV.svg": "/static/media/fahrzeugV.67071e38750426d700c5.svg",
+    "static/media/kg.svg": "/static/media/kg.b440a4855a78e7187c7ecd8ef36cfde6.svg",
+    "static/media/fahrzeugW.svg": "/static/media/fahrzeugW.7b4d3cb6328d0f9a8a49.svg",
+    "static/media/menu.svg": "/static/media/menu.53f8dff3a1b6648f940d0062a2237b90.svg",
+    "static/media/fahrzeugT.svg": "/static/media/fahrzeugT.e4b4ff0cf0c7db7c3e66.svg",
+    "static/media/fahrzeugKombi.svg": "/static/media/fahrzeugKombi.b84a644caba9894bdf78.svg",
+    "static/media/fahrzeugM.svg": "/static/media/fahrzeugM.98b56feca03ccea48258.svg",
+    "static/media/parkplatzSchild.svg": "/static/media/parkplatzSchild.d90ca1fc9415f01913b1.svg",
+    "static/media/nachricht.svg": "/static/media/nachricht.32fbb56755965be7a0f7.svg",
+    "static/media/fahrzeugK.svg": "/static/media/fahrzeugK.b0be9c4335b812b6f901.svg",
+    "static/media/back.svg": "/static/media/back.0190d7711d7dd8aa0b89311051066b67.svg",
+    "index.html": "/index.html",
+    "static/media/punktG.svg": "/static/media/punktG.7eb470bce80be9c6061f01c16c784744.svg",
+    "static/media/punktW.svg": "/static/media/punktW.8000f79b3292d0d4d8fd774235b61f84.svg",
+    "main.903d63e6.css.map": "/static/css/main.903d63e6.css.map",
+    "main.19cb8cbb.js.map": "/static/js/main.19cb8cbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.903d63e6.css",
+    "static/js/main.19cb8cbb.js"
+  ]
+}

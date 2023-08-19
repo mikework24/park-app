@@ -1,0 +1,49 @@
+/* ------------ Globale werte und farben -------------*/
+:root {
+  --color-bg: #003B55;
+  --color-primary: #095172;
+  --color-secondary: #70BFBE;
+  --color-hightlight: #F8B247;
+}
+
+
+
+#main .MuiFilledInput-root {
+  background-color: rgb(255 255 255);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#main .MuiFilledInput-root:focus,
+main .MuiFilledInput-root:hover,
+main .MuiFilledInput-root:active {
+  background-color: rgb(226, 226, 226);
+}
+
+#main .MuiButton-contained {
+  border-radius: 100px;
+  min-width: 120px;
+  text-transform: none;
+  color: #000;
+  font-weight: 600;
+}
+
+#main .MuiButton-containedPrimary {
+  background-color: var(--color-secondary);
+
+}
+
+#main .MuiButton-containedPrimary:hover {
+  background-color: var(--color-secondary);
+  opacity: 0.97;
+  color: #000;
+}
+
+#main .MuiSwitch-colorPrimary.Mui-checked {
+  color: var(--color-secondary);
+}
+
+#main .MuiSwitch-colorPrimary.Mui-checked+.MuiSwitch-track {
+  background-color: var(--color-secondary);
+  opacity: 0.7;
+}

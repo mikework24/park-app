@@ -1,0 +1,332 @@
+/* ------------ Globale werte und farben -------------*/
+:root {
+  --color-bg: #003B55;
+  --color-primary: #095172;
+  --color-secondary: #70BFBE;
+  --color-hightlight: #F8B247;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+
+#root {
+  position: absolute;
+    width: 100%;
+    min-height: 100%;
+    max-width: 450px;
+    left: auto;
+    right: auto;
+    background-color: var(--color-bg);
+}
+
+.bg {
+  background-color: var(--color-bg);
+}
+
+.bgPrimary {
+  background-color: var(--color-primary);
+}
+
+.bgSecondary {
+  background-color: var(--color-secondary);
+}
+
+.bgHightlight {
+  background-color: var(--color-hightlight);
+}
+
+/* body */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  color: #fff;
+}
+
+/* main */
+main {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+main>* {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block-start: 0.6em;
+  margin-block-end: 0.2em;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+h2 {
+  font-size: 1.35em;
+}
+
+h3 {
+  font-size: 1.12em;
+}
+
+/* Flex */
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Parkplatz Boxen */
+.flexBox {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.flexBox>* {
+  flex: 1 0 0%;
+  height: auto;
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.flexBox img {
+  height: 40px;
+  margin: 7px;
+  display: block;
+}
+
+.flex img {
+  max-width: 70%;
+}
+
+
+/* */
+.center {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+/* margin */
+p {
+  margin-block-start: 0em;
+}
+
+.marH20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.marV20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* padding */
+.pad8 {
+  padding: 8px;
+}
+
+.padH20 {
+  padding: 20px;
+}
+
+.pad30 {
+  padding: 30px;
+
+}
+
+/* height */
+.mHeight90 {
+  min-height: 90px;
+}
+
+
+/* Button Center & Gap */
+.buttonBox {
+  margin-top: 20px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+
+
+.font14 {
+  font-size: 14px;
+}
+
+
+.floatL {
+  float: left;
+}
+
+.floatR {
+  float: right;
+}
+
+.none {
+  opacity: 0;
+}
+
+/* Header */
+.appHeader {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  max-width: 450px;
+  background-color: var(--color-primary);
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: auto;
+  z-index: 9999;
+  box-shadow: 0px 0px 12px rgb(0, 41, 59);
+}
+
+.appHeader>div {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px 8px;
+}
+
+.menuBack {
+  width: 48px;
+}
+
+.appTitle {
+  width: calc(100% - 96px);
+}
+
+.appMenu {
+  width: 48px;
+}
+
+/* Header ende*/
+
+/*Footer*/
+.appFooter {
+  bottom: 0px;
+  left: auto;
+  right: auto;
+  width: 100%;
+  max-width: 442px;
+  background-color: var(--color-primary);
+  position: inherit;
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 0px 0px 12px rgb(0, 41, 59);
+  gap: 2px;
+  padding: 4px;
+}
+
+.appFooter>* {
+  flex: 1 0 0%;
+}
+
+.footerLink {
+
+  padding: 5px;
+  padding-top: 8px;
+  background-color: #0000;
+  border-radius: 8px;
+  height: 48px;
+  fill: #ffffff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.footerLink:hover,
+.footerLink[aktiv="true"] {
+  background-color: #105879;
+  box-shadow: 0px -3px 6px #0B4059C4;
+  color: #F8B247;
+  fill: #F8B247;
+}
+
+.footerLink img,
+.footerLink svg {
+  display: block;
+}
+
+/* Footer ende */
+
+
+
+
+
+
+/* Bild & Eingabefeld */
+.textFieldIcon {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+}
+
+.textFieldIcon .icon {
+  width: 80px;
+  text-align: center;
+  margin-right: 20px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textFieldIcon .text {
+  width: 100%;
+}
+
+/* Bild & Eingabefeld ende */
+
+
+
+.nummernschild {
+  height: 32px;
+  width: 140px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #fff;
+  color: var(--color-bg);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

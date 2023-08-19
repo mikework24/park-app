@@ -1,0 +1,165 @@
+/* ------------ NachrichtBox -------------*/
+.nachrichtBox {
+  background-color: var(--color-primary);
+  margin: 8px 20px 8px 20px;
+  padding: 10px;
+  height: auto;
+}
+
+.nachrichtBox .head {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.nachrichtBox .head .titel {
+  width: 100%;
+}
+
+.nachrichtBox .head .optionM {
+  width: 48px;
+}
+
+.nachrichtBox .MuiSvgIcon-root {
+  color: #fff;
+  height: 48px;
+  width: 48px;
+}
+
+.nachrichtBox .text {
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.nachrichtBox .ausRe {
+  margin-left: 20px;
+  border-radius: 12px 0px 12px 12px;
+}
+
+.nachrichtBox .ausLi {
+  margin-right: 20px;
+  border-radius: 0px 12px 12px 12px;
+}
+
+.nachrichtBox .buttonBox{
+  margin-bottom: 8px;
+}
+
+.nachrichtBox .zeit{
+  text-align: right;
+}
+
+/* Fahrzeug Suchliste */
+.fahrzeugListBox {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 130px;
+}
+
+.fahrzeugListBox>* {
+  flex: 1 0;
+  height: auto;
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.fahrzeugListBox img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* BuchungenBox */
+.buchungenBox {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  max-height: 200px;
+}
+
+.buchungenBox>* {
+  flex: 1 0;
+  height: auto;
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.buchungenBox img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.buchungenBox .center {
+  margin-top: 8px;
+}
+
+
+/* Bild & Text als checkbox */
+.checkboxIcon {
+  margin: 8px 20px 8px 20px;
+  padding: 8px;
+  height: 52px;
+  color: #fff;
+  background-color: #105879;
+}
+
+.checkboxIcon {
+  margin: 8px 20px 8px 20px;
+  padding: 8px;
+  height: 52px;
+  color: #fff;
+  background-color: #105879;
+}
+
+.checkboxIcon .fill {
+  fill: #fff;
+}
+
+.checkboxIcon .stroke {
+  stroke: #fff;
+}
+
+.checkboxIcon.aktiv {
+  color: var(--color-bg);
+  background-color: var(--color-secondary);
+}
+
+.checkboxIcon.aktiv .fill {
+  fill: var(--color-bg);
+}
+
+.checkboxIcon.aktiv .stroke {
+  stroke: var(--color-bg);
+}
+
+
+.checkboxIcon .icon {
+  float: left;
+  width: 80px;
+  text-align: center;
+  margin-right: 8px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkboxIcon .text {
+  display: block;
+  height: 100%;
+  align-items: center;
+}
+
+.checkboxIcon .flex {
+  display: flex;
+}
+
+.checkboxIcon p {
+  margin-block-end: 8px;
+  font-weight: 600;
+}
